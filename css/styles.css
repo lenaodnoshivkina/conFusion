@@ -28,11 +28,6 @@ address{
     color:#0f0f0f;
 }
 
-hr{
-    size: 10px;
-    color: black;
-}
-
 body{
     padding:50px 0px 0px 0px;
     z-index:0;

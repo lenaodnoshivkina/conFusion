@@ -13,12 +13,14 @@
     <title>Ristorante Con Fusion: About Us</title>
 </head>
 
-
 <body>
-    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+	<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
         <div class="container">
-          <div class="collapse navbar-collapse" id="Navbar">
-           <a class="navbar-brand" href="#">Ristorante Con Fusion</a>
+        	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+            	<span class="navbar-toggler-icon"></span>
+        	</button>			
+           <a class="navbar-brand mr-auto" href="./index.html">Ristorante Con Fusion</a>
+           <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
                     <li class="nav-item active"><a class="nav-link" href="#">About</a></li>
@@ -27,10 +29,7 @@
                 </ul>            
         	</div>
 	    </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </nav>
+	</nav>
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
@@ -45,7 +44,7 @@
     </header>
 
     <div class="container">
-    	<div>
+    	<div class="row">
     		<ol class="col-12 breadcrumb">
                 <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
                 <li class="breadcrumb-item active">About Us</li>
@@ -57,18 +56,6 @@
                <hr>
             </div>
         </div>
-
-        <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-6">
-                <h2>Our History</h2>
-                <p>Started in 2010, Ristorante con Fusion quickly established itself as a culinary icon par excellence in Hong Kong. With its unique brand of world fusion cuisine that can be found nowhere else, it enjoys patronage from the A-list clientele in Hong Kong.  Featuring four of the best three-star Michelin chefs in the world, you never know what will arrive on your plate the next time you visit us.</p>
-                <p>The restaurant traces its humble beginnings to <em>The Frying Pan</em>, a successful chain started by our CEO, Mr. Peter Pan, that featured for the first time the world's best cuisines in a pan.</p>
-            </div>
-            <div class="d-none d-sm-block">
-            	<h2></h2>
-            </div>
-        </div>
-
 
         <div class="row row-content align-items-center">
             <div class="col-12">
@@ -127,7 +114,9 @@
            </div>
         </div>
     </footer>
-    
+<!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>    
 </body>
-
 </html>
